@@ -1,17 +1,52 @@
 
-.wrapper {
-	display: none;
-	margin: 0px;
+.frames {
+	display: block;
+	position: relative;
+	margin: 10px;
 	padding: 0px;
 }
 
-.wrapper iframe {
-	display: none;
+.frames iframe {
+	display: inline-block;
+	position: relative;
 	border: 2px solid black;
-	margin: 10px 0px 10px 0px;
+	margin: 10px 0px 0px 0px;
 	padding: 10px;
-	width:95%;
-	height:640px; 
+	width:93%;
+	height:85%;
+}
+
+.frames a {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	margin: 5px 0px 0px 0px;
+	padding: 0px;
+	color: blue;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 2em;
+	cursor: pointer;
+}
+
+.frames a:hover {
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.frames a:visited {
+	color: blue;
+	text-decoration: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.wrapper {
+	display: block;
+	margin: 0px;
+	padding: 0px;
 }
 
 .wrapper p {
@@ -42,9 +77,13 @@
 .download {
 	display: inline-block;
 	position: relative;
-	margin: 0px;
+	margin: 0px 5px 0px 5px;
 	padding: 0px;
 	height: 3%;
+}
+
+.download:nth-child(1) {
+	margin: 0px 5px 0px 0px;
 }
 
 .wrapper p a {
@@ -67,6 +106,7 @@
 .container ul li {
 	list-style-type: none;
 	list-style-position: outside;
+	display: block;
 }
 
 .container ul li::before {
@@ -85,19 +125,21 @@
 .nexter {
 	display: inline-block;
 	position: relative;
-	margin: 0px 0px 3px 20px;
+	margin: 0px 0px 0px 20px;
 	padding: 0px;
 	text-decoration: none;
 	cursor: default;
+	color: blue;
 }
 
 .nexter:hover {
 	text-decoration: underline;
 	cursor: pointer;
+	color: blue;
 }
 
 .nexter:visited {
 	text-decoration: none;
 	cursor: default;
-	color:blue;
+	color: blue;
 }

@@ -4,7 +4,9 @@
 	<title>Notes, book</title>
 	<script src="https://maximalisimus.github.io/notes/js-css/script.js"></script>
 	<link rel="stylesheet" href="https://maximalisimus.github.io/notes/js-css/readme.css">
+	<!--
 	<link rel="stylesheet" href="https://maximalisimus.github.io/notes/js-css/frame.css">
+	--> <link rel="stylesheet" href="js-css/frame.css">
 </head>
 <body>
 	<div class="site">
@@ -34,35 +36,27 @@
 			</div>
 		</div>
 		<div class="content">
+			<div class="frames" id="frames" style="display: none;">
+				<iframe name="textframe" frameborder="0" align="center" scrolling="auto" frameborder="1" border="1" cellspacing="0" style="border: 1px solid black;"></iframe>
+				<a onclick="CloseFrame();">&#9746;</a>
+			</div>
 			<h3>Алекс Кош</h3>
 			<div class="container">
 				<ul>
 					<li><u>Огненная серия</u>	
 						<ul>
-							<li>Огненный факультет&nbsp;</li><a href="#" class="nexter">Развернуть ...</a>
+							<li>Огненный факультет</li><a class="nexter">Развернуть&nbsp;...</a>
 							<div class="wrapper" style="display: none;">
-								<p><img src="js-css/download.png" alt="download" class="download">&nbsp;Скачать:&nbsp;
+								<p><img src="js-css/download.png" alt="download" class="download">Скачать:
 									<a href="https://maximalisimus.github.io/notes/books/Aa/Alex_Kosh/Fire_Facultet.doc">doc</a>,
 									<a href="https://maximalisimus.github.io/notes/books/Aa/Alex_Kosh/Fire_Facultet.docx">docx</a>,
 									<a href="https://maximalisimus.github.io/notes/books/Aa/Alex_Kosh/Fire_Facultet.pdf">pdf</a>,
 									<a href="https://maximalisimus.github.io/notes/books/Aa/Alex_Kosh/Fire_Facultet.fb2">fb2</a>.
-									<img src="https://maximalisimus.github.io/notes/js-css/yey.png" alt="download" class="download">&nbsp;Читать онлайн: 
+									<img src="https://maximalisimus.github.io/notes/js-css/yey.png" alt="download" class="download">
+									<a href="https://maximalisimus.github.io/notes/books/Aa/Alex_Kosh/Fire_Facultet.html" target="textframe" class="read">Читать онлайн&nbsp;...</a>
 								</p>
-								<a href="https://maximalisimus.github.io/notes/books/Aa/Alex_Kosh/Fire_Facultet.html" target="textframe1">Open</a>
-								<iframe name="textframe1" frameborder="0" hspace="10" vspace="10" align="center" scrolling="auto" frameborder="1" border="1" cellspacing="0" style="display: none;"></iframe>
 							</div>
-							<li>Огненный патруль&nbsp;</li><a href="#" class="nexter">Развернуть ...</a>
-							<div class="wrapper" style="display: none;">
-								<p><img src="https://maximalisimus.github.io/notes/js-css/download.png" alt="download" class="download">&nbsp;Скачать:&nbsp;
-									<a href="https://maximalisimus.github.io/notes/books/Aa/Alex_Kosh/Fire_Patrul.doc">doc</a>,
-									<a href="https://maximalisimus.github.io/notes/books/Aa/Alex_Kosh/Fire_Patrul.docx">docx</a>,
-									<a href="https://maximalisimus.github.io/notes/books/Aa/Alex_Kosh/Fire_Patrul.pdf">pdf</a>,
-									<a href="https://maximalisimus.github.io/notes/books/Aa/Alex_Kosh/Fire_Patrul.fb2">fb2</a>.
-									<img src="https://maximalisimus.github.io/notes/js-css/yey.png" alt="download" class="download">&nbsp;Читать онлайн: 
-								</p>
-								<a href="https://maximalisimus.github.io/notes/books/Aa/Alex_Kosh/Fire_Patrul.html" target="textframe2">Open</a>
-								<iframe name="textframe2" frameborder="0" hspace="10" vspace="10" align="center" scrolling="auto" frameborder="1" border="1" cellspacing="0" style="display: none;"></iframe>
-							</div>
+							<li>Огненный патруль</li>
 							<li>Огненный орден</li>
 							<li>Огненный легион</li>
 						</ul></li>
@@ -670,7 +664,17 @@
 			<h3>Хэдер Макалистер</h3>
 			<div class="container">
 				<ul>
-					<li>Электронные письма любви</li>
+					<li>Электронные письма любви</li><a class="nexter">Развернуть&nbsp;...</a>
+							<div class="wrapper" style="display: none;">
+								<p><img src="js-css/download.png" alt="download" class="download">Скачать:
+									<a href="https://maximalisimus.github.io/notes/books/Aa/Alex_Kosh/Fire_Facultet.doc">doc</a>,
+									<a href="https://maximalisimus.github.io/notes/books/Aa/Alex_Kosh/Fire_Facultet.docx">docx</a>,
+									<a href="https://maximalisimus.github.io/notes/books/Aa/Alex_Kosh/Fire_Facultet.pdf">pdf</a>,
+									<a href="https://maximalisimus.github.io/notes/books/Aa/Alex_Kosh/Fire_Facultet.fb2">fb2</a>.
+									<img src="https://maximalisimus.github.io/notes/js-css/yey.png" alt="download" class="download">
+									<a href="https://maximalisimus.github.io/notes/books/Aa/Alex_Kosh/Fire_Facultet.html" target="textframe" class="read">Читать онлайн&nbsp;...</a>
+								</p>
+							</div>
 				</ul>
 			</div>
 		</div>
@@ -680,6 +684,8 @@
 		</div>
 		</br>
 	</div>
+	<!--
 	<script type="text/javascript" src="https://maximalisimus.github.io/notes/js-css/load.js"></script>
+	--> <script type="text/javascript" src="js-css/load.js"></script>
 </body>
 </html>
