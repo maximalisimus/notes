@@ -7,11 +7,11 @@ for (let elem of elements) {
 			if (blockdiv.style.display == "none") {
 				blockdiv.style.display='block';
 				event.target.innerHTML='Свернуть&nbsp;...';
-				blockdiv.setAttribute("id","actives");
+				event.target.setAttribute("id","actives");
 			} else {
 				blockdiv.style.display='none';
 				event.target.innerHTML='Развернуть&nbsp;...';
-				blockdiv.removeAttribute("id");
+				event.target.removeAttribute("id");
 			}
 			return false;
 		} else if (event.target.tagName === 'A' && event.target.className == 'read') {
@@ -29,6 +29,8 @@ for (let elem of elements) {
 function CloseFrame() {
 	const frame = document.getElementById("frames");
 	frame.style.display='none';
-	const activeblock = document.getElementById('actives');
-	activeblock.scrollIntoView({block: "start", inline: "center", behavior: "smooth"});
+	if (document.getElementById('actives')) {
+		const activeblock = document.getElementById('actives').previousElementSibling;
+		activeblock.scrollIntoView({block: "start", inline: "center", behavior: "smooth"});
+	}
 }
