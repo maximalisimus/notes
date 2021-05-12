@@ -1,12 +1,12 @@
 document.querySelector('.container').onclick = event => {
-    if (event.target.tagName === 'A' && event.target.innerHTML == 'Open') {
+    if (event.target.tagName === 'A' && event.target.innerHTML == 'Открыть') {
         const frame = event.target.nextElementSibling;
         frame.style.display='block';
-        event.target.innerHTML='Close';
-    } else if (event.target.tagName === 'A' && event.target.innerHTML == 'Close') {
+        event.target.innerHTML='Закрыть';
+    } else if (event.target.tagName === 'A' && event.target.innerHTML == 'Закрыть') {
         const frame = event.target.nextElementSibling;
         frame.style.display='none';
-        event.target.innerHTML='Open';
+        event.target.innerHTML='Открыть';
     } else if (event.target.tagName === 'A' && event.target.className == 'nexter') {
 		const blockdiv = event.target.nextElementSibling;
 		if (blockdiv.style.display == "none") {
