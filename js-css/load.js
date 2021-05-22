@@ -15,7 +15,7 @@ for (let elem of elements) {
 		} else if (event.target.tagName === 'A' && event.target.className == 'read') {
 			const frame = document.getElementById(event.target.target);
 			if (frame.style.display == "none") {
-				const frameid = event.target.target + "_rd";
+				const frameid = event.target.target + "_rd"; 
 				event.target.setAttribute("id",frameid);
 				frame.style.display='block';
 				frame.scrollIntoView({block: "start", inline: "center", behavior: "smooth"});
