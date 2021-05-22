@@ -4,11 +4,7 @@
 	<title>Notes, book</title>
 	<script src="https://maximalisimus.github.io/notes/js-css/script.js"></script>
 	<link rel="stylesheet" href="https://maximalisimus.github.io/notes/js-css/readme.css">
-	
 	<link rel="stylesheet" href="https://maximalisimus.github.io/notes/js-css/frame.css">
-	<!--
-	<link rel="stylesheet" href="js-css/frame.css">
-	-->
 </head>
 <body>
 	<div class="site">
@@ -39,9 +35,13 @@
 			</div>
 		</div>
 		<div class="content">
-			<div class="frames" id="frames" style="display: none;">
-				<iframe name="textframe" frameborder="0" align="center" scrolling="auto" frameborder="1" border="1" cellspacing="0" style="border: 1px solid black;"></iframe>
-				<a onclick="CloseFrame();">&#9746;</a>
+			<div class="frames" id="textframe1" style="display: none;">
+				<iframe name="textframe1" frameborder="0" align="center" scrolling="auto" frameborder="1" border="1" cellspacing="0" style="border: 1px solid black;"></iframe>
+				<a onclick="CloseFrame('textframe1');"><img src="js-css/close.png" alt="close" class="close"></a>
+			</div>
+			<div class="frames" id="textframe2" style="display: none;">
+				<iframe name="textframe2" frameborder="0" align="center" scrolling="auto" frameborder="1" border="1" cellspacing="0" style="border: 1px solid black;"></iframe>
+				<a onclick="CloseFrame('textframe2');"><img src="js-css/close.png" alt="close" class="close"></a>
 			</div>
 			<h3>Алекс Кош</h3>
 			<div class="container">
@@ -56,7 +56,7 @@
 									<a href="https://maximalisimus.github.io/notes/books/Aa/Alex_Kosh/Fire_Facultet.pdf">pdf</a>,
 									<a href="https://maximalisimus.github.io/notes/books/Aa/Alex_Kosh/Fire_Facultet.fb2">fb2</a>.
 									<img src="https://maximalisimus.github.io/notes/js-css/yey.png" alt="download" class="download">
-									<a href="https://maximalisimus.github.io/notes/books/Aa/Alex_Kosh/Fire_Facultet.html" target="textframe" class="read">Читать онлайн&nbsp;...</a>
+									<a href="https://maximalisimus.github.io/notes/books/Aa/Alex_Kosh/Fire_Facultet.html" target="textframe1" class="read">Читать онлайн&nbsp;...</a>
 								</p>
 							</div>
 							<li>Огненный патруль</li><a class="nexter">Развернуть&nbsp;...</a>
@@ -67,7 +67,7 @@
 									<a href="https://maximalisimus.github.io/notes/books/Aa/Alex_Kosh/Fire_Patrul.pdf">pdf</a>,
 									<a href="https://maximalisimus.github.io/notes/books/Aa/Alex_Kosh/Fire_Patrul.fb2">fb2</a>.
 									<img src="https://maximalisimus.github.io/notes/js-css/yey.png" alt="download" class="download">
-									<a href="https://maximalisimus.github.io/notes/books/Aa/Alex_Kosh/Fire_Patrul.html" target="textframe" class="read">Читать онлайн&nbsp;...</a>
+									<a href="https://maximalisimus.github.io/notes/books/Aa/Alex_Kosh/Fire_Patrul.html" target="textframe2" class="read">Читать онлайн&nbsp;...</a>
 								</p>
 							</div>
 							<li>Огненный орден</li>
@@ -687,10 +687,6 @@
 		</div>
 		</br>
 	</div>
-	
-	<script type="text/javascript" src="https://maximalisimus.github.io/notes/js-css/load.js"></script>
-	<!--
-	<script type="text/javascript" src="js-css/load.js"></script>
-	-->
+	<script type="text/javascript" src="https://maximalisimus.github.io/notes/js-css/load.js"></script>	
 </body>
 </html>

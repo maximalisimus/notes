@@ -10,8 +10,8 @@
 	display: inline-block;
 	position: relative;
 	border: 2px solid black;
-	margin: 10px 0px 0px 0px;
-	padding: 10px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
 	width:90%;
 	height:85%;
 }
@@ -24,8 +24,6 @@
 	padding: 0px;
 	color: blue;
 	text-decoration: none;
-	font-weight: bold;
-	font-size: 2em;
 	cursor: pointer;
 }
 
@@ -41,6 +39,15 @@
 	text-decoration: none;
 	font-weight: bold;
 	cursor: pointer;
+}
+
+.frames a img {
+	display: inline-block;
+	position: relative;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	width:32px;
+	height: 32px;
 }
 
 .wrapper {
