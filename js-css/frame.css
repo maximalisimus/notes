@@ -10,7 +10,7 @@
 	display: inline-block;
 	position: relative;
 	border: 2px solid black;
-	margin: 0px 0px 0px 0px;
+	margin: 10px 0px 0px 0px;
 	padding: 0px;
 	width:90%;
 	height:85%;
@@ -20,7 +20,7 @@
 	display: inline-block;
 	position: relative;
 	vertical-align: top;
-	margin: 5px 0px 0px 0px;
+	margin: 10px 0px 0px 0px;
 	padding: 0px;
 	color: blue;
 	text-decoration: none;
