@@ -9,7 +9,7 @@ for (let elem of elements) {
 				event.target.innerHTML='Свернуть&nbsp;...';
 			} else {
 				blockmore.style.display='none';
-				event.target.innerHTML='Развернуть&nbsp;...';
+				event.target.innerHTML='Подробнее&nbsp;...';
 			}
 			return false;
 		} else if (event.target.tagName === 'A' && event.target.className == 'read') {

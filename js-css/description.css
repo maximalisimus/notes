@@ -16,9 +16,10 @@
 }
 .desc details p {
 	text-indent: 20px;
+	text-align:justify;
 	display: inline-block;
 	position: relative;
-	margin: 0px 0px 0px 10px;
+	margin: 0px 20px 0px 25px;
 	padding: 0px;
 }
 
@@ -111,4 +112,3 @@
 	color: blue;
 	text-decoration: none;
 }
-
