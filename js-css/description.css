@@ -1,0 +1,114 @@
+.desc {
+	display: block;
+	position: relative;
+	margin: 0px 0px 0px 20px;
+	padding: 0px;
+	text-decoration: none;
+	cursor: pointer;
+	color: black;
+}
+
+.desc details {
+	display: inline-block;
+	position: relative;
+	margin: 0px 0px 0px 10px;
+	padding: 0px;
+}
+.desc details p {
+	text-indent: 20px;
+	display: inline-block;
+	position: relative;
+	margin: 0px 0px 0px 10px;
+	padding: 0px;
+}
+
+.desc details summary {
+	display: inline-block;
+	position: relative;
+	margin: 5px 0px 5px 0px;
+	padding: 0px;
+	color: blue;
+}
+
+.desc details summary:hover {
+	text-decoration: underline;
+}
+
+.movie {
+	display: block;
+	position: relative;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+
+.movie ul li {
+	display: inline-block;
+	position: relative;
+	margin: 0px 10px 0px 10px;
+	padding: 0px;
+	list-style-type: none;
+	list-style-position: outside;
+}
+
+.movie ul li::before {
+	content: "➤ ";
+}
+
+.movie ul li ul li {
+	list-style-type: none;
+	list-style-position: outside;
+}
+
+.movie ul li ul li::before {
+	content: "ᐅ ";
+}
+
+.movie ul dl {
+	display: block;
+	position: relative;
+	margin: 5px 10px 0px 40px;
+	padding: 0px;
+}
+
+.movie ul dl::after {
+	content: ' ';
+    display: block;
+}
+
+.movie ul dl dt {
+	font-weight: bold;
+}
+
+.movie ul dl dt::after {
+	content: ":";
+}
+
+.movie ul dl dd {
+	text-indent: 20px;
+	text-align:justify;
+	margin: 0px 10px 0px 60px;
+	padding: 0px;
+}
+
+.nextmore {
+	display: inline-block;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	cursor: pointer;
+	color: blue;
+	text-decoration: none;
+}
+
+.nextmore:hover {
+	cursor: pointer;
+	color: blue;
+	text-decoration: underline;
+}
+
+.nextmore:visited {
+	cursor: pointer;
+	color: blue;
+	text-decoration: none;
+}
+
