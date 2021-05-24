@@ -7,9 +7,11 @@
 	<script language="JavaScript">
 		function DateServer() {
 			var offset = 0;
-			var date = new Date();
-			date.setTime(date.getTime() + offset);
-			return date.getFullYear();
+			var servtime = new Date('Jan 1 2021');
+			var loctime = new Date();
+			offset = servtime.getTime() - loctime.getTime();
+			loctime.setTime(loctime.getTime() + offset);
+			return loctime.getFullYear();
 		}
 	</script>
 </head>
