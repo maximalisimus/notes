@@ -4,6 +4,14 @@
 	<title>Обо мне</title>
 	<link rel="stylesheet" href="https://maximalisimus.github.io/notes/js-css/readme.css">
 	<link rel="stylesheet" href="https://maximalisimus.github.io/notes/js-css/about.css">
+	<script language="JavaScript">
+		function DateServer() {
+			var offset = 0;
+			var date = new Date();
+			date.setTime(date.getTime() + offset);
+			return date.getFullYear();
+		}
+	</script>
 </head>
 <body>
 	<div class="site">
@@ -58,13 +66,14 @@
 			При нажатии на данную кнопку отображается подробная информация о выбранном фильме, содержащая в себе наиболее важные, по мнению автора, данные.</br>
 			В данный момент <b>подробная информация</b> о каждом фильме <u>находится в разработке</u>.
 			</p>
-			<p>Т.к. данный вебсайт статичен, то автор считает что самая последняя строка на всех страницах с информацией об электронной почте не требует регулярного обновления даты.
-			В этой строке указана только дата создания данного веб-сайта и несёт информационный характер о дате начала работы над данным проектом и прошедшим с тех пор временем.</p>
 			<p>Спасибо за внимание!</p>
 		</div>
 		</br>
 		<div class="about">
+			<!--
 			<p>Copyright &copy; 2020 by <a href="mailto:maximalis171091@yandex.ru">Mikhail Artamonov</a></p>
+			-->
+			<p>Copyright &copy; 2020-<script>document.write(DateServer());</script> by <a href="mailto:maximalis171091@yandex.ru">Mikhail Artamonov</a></p>
 		</div>
 		</br>
 	</div>

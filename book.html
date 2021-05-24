@@ -6,6 +6,14 @@
 	<link rel="stylesheet" href="https://maximalisimus.github.io/notes/js-css/readme.css">
 	<link rel="stylesheet" href="https://maximalisimus.github.io/notes/js-css/frame.css">
 	<link rel="stylesheet" href="https://maximalisimus.github.io/notes/js-css/description.css">
+	<script language="JavaScript">
+		function DateServer() {
+			var offset = 0;
+			var date = new Date();
+			date.setTime(date.getTime() + offset);
+			return date.getFullYear();
+		}
+	</script>
 </head>
 <body>
 	<div class="site">
@@ -693,7 +701,10 @@
 		</div>
 		</br>
 		<div class="about">
+			<!--
 			<p>Copyright &copy; 2020 by <a href="mailto:maximalis171091@yandex.ru">Mikhail Artamonov</a></p>
+			-->
+			<p>Copyright &copy; 2020-<script>document.write(DateServer());</script> by <a href="mailto:maximalis171091@yandex.ru">Mikhail Artamonov</a></p>
 		</div>
 		</br>
 	</div>
