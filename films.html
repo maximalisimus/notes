@@ -4,10 +4,11 @@
 	<title>Notes, films</title>
 	<link rel="icon" href="https://maximalisimus.github.io/notes/js-css/films-favicon.ico">
 	<script src="https://maximalisimus.github.io/notes/js-css/script.js"></script>
-	<link rel="stylesheet" href="https://maximalisimus.github.io/notes/js-css/readme.css">
+	<link rel="stylesheet" href="https://maximalisimus.github.io/notes//js-css/readme.css">
 	<link rel="stylesheet" href="https://maximalisimus.github.io/notes/js-css/description.css">
 	<link rel="stylesheet" href="https://maximalisimus.github.io/notes/js-css/ol-li.css" type="text/css">
 	<!-- <link rel="stylesheet" href="js-css/ol-li.css" type="text/css"> -->
+	<link rel="stylesheet" href="https://maximalisimus.github.io/notes//js-css/li-style.css" type="text/css">
 	<script src="https://maximalisimus.github.io/notes/js-css/date-serv.js"></script> 
 </head>
 <body>
@@ -42,8 +43,8 @@
 		</div>
 		<div class="content">
 			<p><a name="oglavlenie"></a></p>
-			<h2>Оглавление</h2>
-			<ol>
+			<h2 class="oglavlenie">Оглавление</h2>
+			<ol class="gain-menu">
 				<li><a href="#part1">Фильмы, сериалы</a></li>
 				<li><a href="#part2">Не просмотренные</a></li>
 				<li><a href="#part3">Мистика, ужасы, путешествие во времени.</a></li>
@@ -55,9 +56,23 @@
 			<div class="movie">
 				<p><a name="part1"></a></p>
 				<h2>Фильмы, сериалы.</h2>
-				<p><b>Категории:</b> мистика, фантастика, фэнтези, детективы, приключения, путешествия во времени, космические прикления, другие миры, параллельные миры, магия, способности и многое другое.</p>
+				<p class="categ">Категории:&nbsp;</p><a class="category">Развернуть&nbsp;...</a>
+				<ul class="gain-one categ-two" style="display: none;">
+					<li>мистика</li>
+					</br><li>фантастика</li>
+					</br><li>фэнтези</li>
+					</br><li>детективы</li>
+					</br><li>приключения</li>
+					</br><li>путешествия во времени</li>
+					</br><li>космические приключения</li>
+					</br><li>другие миры</li>
+					</br><li>параллельные миры</li>
+					</br><li>магия</li>
+					</br><li>способности</li>
+					</br><li>и многое другое</li>
+				</ul>
 				<hr>
-				<ul>
+				<ul class="gain-one">
 					<li>Доктор кто</li><a class="nextmore">Анотация&nbsp;...</a>
 					<dl style="display: none;">
 						<dt>Описание</dt>
@@ -466,7 +481,7 @@
 			<div class="movie">
 				<p><a name="part2"></a></p>
 				<h2>Не просмотренные.</h2>
-				<ul>
+				<ul class="gain-one">
 					</br><li>Познать неизведанное 2016</li>
 					</br><li>Пассажиры 2016</li>
 				</ul>
@@ -478,7 +493,7 @@
 			<div class="movie">
 				<p><a name="part3"></a></p>
 				<h2>Мистика, ужасы, путешествие во времени.</h2>
-				<ul>
+				<ul class="gain-one">
 					<li>Под гипнозом 2002</li>
 					</br><li>коробка теней 2012</li>
 					</br><li>Крабат. Учений колдуна 2008</li>
@@ -510,7 +525,7 @@
 			<div class="movie">
 				<p><a name="part4"></a></p>
 				<h2>Аниме.</h2>
-				<ul>
+				<ul class="gain-one">
 					<li>Хеллсинг Ova / Hellsing Ultimate (2006 - 2012)</li>
 					</br><li>Последняя фантазия / Final Fantasy</li>
 				</ul>
@@ -522,7 +537,7 @@
 			<div class="movie">
 				<p><a name="part5"></a></p>
 				<h2>Эротика (18+).</h2>
-				<ul>
+				<ul class="gain-one">
 					<li>Fabodjantan (1978)</li><a class="nextmore">Анотация&nbsp;...</a>
 					<dl style="display: none;">
 						<dt>Описание</dt>
@@ -671,6 +686,6 @@
 		</div>
 		</br>
 	</div>
-	<script type="text/javascript" src="https://maximalisimus.github.io/notes/js-css/more.js"></script>
+	<script type="text/javascript" src="./js-css/more.js"></script>
 </body>
 </html>
