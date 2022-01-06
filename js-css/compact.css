@@ -1,0 +1,17 @@
+ul.compact {
+	display: inline-block;
+	position: relative;
+	margin: 0px;
+	padding: 10px 0px 10px 0px;
+}
+ul.compact li {
+	display: inline;
+	list-style-type: none;
+	list-style-position: outside;
+}
+ul.compact li::after {
+	content: ", ";
+}
+ul.compact li:last-child::after {
+	content: " ...";
+}
