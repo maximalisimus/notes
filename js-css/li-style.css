@@ -9,6 +9,7 @@ ul.gain-one {
 ul.gain-one li{
 	transition: 0.5s; /* Время эффекта */
 	text-align: center; 
+	display: inline;
 }
 
 ul.gain-one li:hover {
@@ -46,6 +47,7 @@ ul.gain-one li:hover::after {
 ul.categ-two li {
 	list-style-type: none;
 	list-style-position: outside;
+	display: inline;
 }
 ul.categ-two li:hover {
 	padding: 5px 10px 5px 5px;

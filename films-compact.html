@@ -5,8 +5,10 @@
 	<link rel="icon" href="https://maximalisimus.github.io/notes/js-css/films-favicon.ico">
 	<script src="https://maximalisimus.github.io/notes/js-css/script.js"></script>
 	<link rel="stylesheet" href="https://maximalisimus.github.io/notes/js-css/readme.css">
+	<link rel="stylesheet" href="https://maximalisimus.github.io/notes/js-css/description.css">
 	<link rel="stylesheet" href="https://maximalisimus.github.io/notes/js-css/ol-li.css" type="text/css">
 	<!-- <link rel="stylesheet" href="js-css/ol-li.css" type="text/css"> -->
+	<link rel="stylesheet" href="https://maximalisimus.github.io/notes/js-css/li-style.css" type="text/css">
 	<script src="https://maximalisimus.github.io/notes/js-css/date-serv.js"></script> 
 </head>
 <body>
@@ -41,8 +43,8 @@
 		</div>
 		<div class="content">
 			<p><a name="oglavlenie"></a></p>
-			<h2>Оглавление</h2>
-			<ol>
+			<h2 class="oglavlenie">Оглавление</h2>
+			<ol class="gain-menu">
 				<li><a href="#part1">Фильмы, сериалы</a></li>
 				<li><a href="#part2">Не просмотренные</a></li>
 				<li><a href="#part3">Мистика, ужасы, путешествие во времени.</a></li>
@@ -53,7 +55,21 @@
 		<div class="content">
 			<p><a name="part1"></a></p>
 			<h2>Фильмы, сериалы.</h2>
-			<p><b>Категории:</b> мистика, фантастика, фэнтези, детективы, приключения, путешествия во времени, космические прикления, другие миры, параллельные миры, магия, способности и многое другое.</p>
+			<p class="categ">Категории:&nbsp;</p><a class="category">Развернуть&nbsp;...</a>
+			<ul class="gain-one categ-two" style="display: none;">
+				<li>мистика</li>
+				</br><li>фантастика</li>
+				</br><li>фэнтези</li>
+				</br><li>детективы</li>
+				</br><li>приключения</li>
+				</br><li>путешествия во времени</li>
+				</br><li>космические приключения</li>
+				</br><li>другие миры</li>
+				</br><li>параллельные миры</li>
+				</br><li>магия</li>
+				</br><li>способности</li>
+				</br><li>и многое другое</li>
+			</ul>
 			<hr>
 			<p>
 				Доктор кто, 
@@ -365,5 +381,6 @@
 		</div>
 		</br>
 	</div>
+	<script type="text/javascript" src="https://maximalisimus.github.io/notes/js-css/more.js"></script>
 </body>
 </html>
