@@ -131,3 +131,39 @@ ol.gain-menu li:hover {
 	color: black;
 	padding: 5px 10px 5px 10px;
 }
+ul.gain-menu {
+	display: inline-block;
+	position: relative;
+}
+
+ul.gain-menu li {
+	transition: 0.5s; /* Время эффекта */
+	list-style-type: none;
+}
+ul.gain-menu li:hover {
+	transform: translate(1.2); /* Увеличиваем масштаб */
+
+	-webkit-transform: translate(1.2);
+	-moz-transform: translate(1.2);
+	-o-transform: translate(1.2);
+	-ms-transform: translate(1.2);
+
+	text-shadow: 1px 1px 2px white;
+	-webkit-text-shadow: 1px 1px 2px black;
+	-moz-text-shadow: 1px 1px 2px black;
+	-o-text-shadow: 1px 1px 2px black;
+	-ms-text-shadow: 1px 1px 2px black;
+	
+	box-shadow: 0 0 10px 10px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 10px 10px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0 10px 10px rgba(0,0,0,0.5);
+	-o-box-shadow: 0 0 10px 10px rgba(0,0,0,0.5);
+	-ms-box-shadow: 0 0 10px 10px rgba(0,0,0,0.5);
+	
+	font-weight: bolder;
+	cursor: pointer;
+	padding: 0px 20px 0px 20px;
+	text-decoration: none;
+	color: black;
+	padding: 5px 10px 5px 10px;
+}
