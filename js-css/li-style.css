@@ -43,6 +43,30 @@ ul.gain-one li:hover {
 ul.gain-one li:hover::after {
 	content: " ❑ ❒";
 }
+ul.gain-thre{
+	display: inline-block;
+	position: relative;
+}
+ul.gain-thre li {
+	display: block;
+}
+ul.gain-thre li:hover {
+	text-shadow: 1px 1px 2px white;
+	-webkit-text-shadow: 1px 1px 2px black;
+	-moz-text-shadow: 1px 1px 2px black;
+	-o-text-shadow: 1px 1px 2px black;
+	-ms-text-shadow: 1px 1px 2px black;
+			
+	font-weight: bold;
+	cursor: pointer;
+}
+ul.gain-thre li:hover::after {
+	content: " ❑ ❒";
+}
+ul.gain-thre li ul li:hover {
+	font-weight: normal;
+	text-decoration: underline;
+}
 
 ul.categ-two li {
 	list-style-type: none;
