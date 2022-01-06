@@ -1,0 +1,131 @@
+
+ul.gain-one {
+	display: inline-block;
+	position: relative;
+	margin: 0px;
+	padding: 0px 0px 5px 10px;
+}
+
+ul.gain-one li{
+	transition: 0.5s; /* Время эффекта */
+	text-align: center; 
+}
+
+ul.gain-one li:hover {
+	transform: scale(1.2); /* Увеличиваем масштаб */
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	
+	text-shadow: 1px 1px 2px white;
+	-webkit-text-shadow: 1px 1px 2px black;
+	-moz-text-shadow: 1px 1px 2px black;
+	-o-text-shadow: 1px 1px 2px black;
+	-ms-text-shadow: 1px 1px 2px black;
+	
+	box-shadow: 0 0 10px 10px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 10px 10px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0 10px 10px rgba(0,0,0,0.5);
+	-o-box-shadow: 0 0 10px 10px rgba(0,0,0,0.5);
+	-ms-box-shadow: 0 0 10px 10px rgba(0,0,0,0.5);
+	
+	font-weight: bold;
+	cursor: pointer;
+	padding: 5px 30px 5px 5px;
+	
+	/*
+	padding-right: 30px;
+	padding-left: 5px;
+	*/
+}
+ul.gain-one li:hover::after {
+	content: " ❑ ❒";
+}
+
+ul.categ-two li {
+	list-style-type: none;
+	list-style-position: outside;
+}
+ul.categ-two li:hover {
+	padding: 5px 10px 5px 5px;
+}
+ul.categ-two li::before {
+	content: "✔ ";
+}
+
+.categ {
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+	display: inline;
+}
+.category {
+	display: inline-block;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	cursor: pointer;
+	color: blue;
+	text-decoration: none;
+}
+.category:hover {
+	cursor: pointer;
+	color: blue;
+	text-decoration: underline;
+}
+.category:visited {
+	cursor: pointer;
+	color: blue;
+	text-decoration: none;
+}
+/*
+-webkit-
+-moz-
+-o-
+-ms-
+*/
+
+.oglavlenie {
+	display: block;
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+}
+
+ol.gain-menu {
+	display: inline-block;
+	position: relative;
+}
+
+ol.gain-menu li {
+	transition: 0.5s; /* Время эффекта */
+	list-style-type: none;
+}
+ol.gain-menu li:hover {
+	transform: translate(1.2); /* Увеличиваем масштаб */
+
+	-webkit-transform: translate(1.2);
+	-moz-transform: translate(1.2);
+	-o-transform: translate(1.2);
+	-ms-transform: translate(1.2);
+
+	text-shadow: 1px 1px 2px white;
+	-webkit-text-shadow: 1px 1px 2px black;
+	-moz-text-shadow: 1px 1px 2px black;
+	-o-text-shadow: 1px 1px 2px black;
+	-ms-text-shadow: 1px 1px 2px black;
+	
+	box-shadow: 0 0 10px 10px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 10px 10px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0 10px 10px rgba(0,0,0,0.5);
+	-o-box-shadow: 0 0 10px 10px rgba(0,0,0,0.5);
+	-ms-box-shadow: 0 0 10px 10px rgba(0,0,0,0.5);
+	
+	font-weight: bolder;
+	cursor: pointer;
+	padding: 0px 20px 0px 20px;
+	text-decoration: none;
+	color: black;
+	padding: 5px 10px 5px 10px;
+}
