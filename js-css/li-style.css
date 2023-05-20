@@ -92,7 +92,7 @@ ul.categ-two li::before {
 	margin: 0px;
 	padding: 0px;
 	cursor: pointer;
-	color: blue;
+	color: gray;
 	text-decoration: none;
 }
 .category:hover {
@@ -102,7 +102,7 @@ ul.categ-two li::before {
 }
 .category:visited {
 	cursor: pointer;
-	color: blue;
+	color: gray;
 	text-decoration: none;
 }
 /*
